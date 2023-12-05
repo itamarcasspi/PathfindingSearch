@@ -27,14 +27,14 @@ The game board is a NxN sized board that represent a topographic map, where ever
 
 The car is allowed to travel one cell at a time, in every direction, as long as the cell exists or not marked as a cliff.
 Allowed directions are :  
-L = left
-LD = left + down
-D = down
-RD = right + down
-R = right
-UR = up + right
-U = up
-UL = up + left
+L = left  
+LD = left + down  
+D = down  
+RD = right + down  
+R = right  
+UR = up + right  
+U = up  
+UL = up + left  
 
 ## Path cost
 
