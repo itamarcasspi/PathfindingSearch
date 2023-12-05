@@ -61,7 +61,7 @@ A state is a snapshot of the probmel solving process, in our case where is the c
 
 ![Original](https://github.com/itamarcasspi/PathfindingSearch/assets/74679553/f1c55472-7abe-4f1e-8b04-bb4a52bf9d59)
 
-The search space is all possible states of the game, where we move from one state to another using the allowed operations which are NORTH, NORTHEAST, SOUTH, etc. Using the above state example, the children of the previous state using the EAST, SOUTHEAST, SOUTH operators in respect:
+The search space is all possible states of the game, where we move from one state to another using the allowed operations which are NORTH, NORTHEAST, SOUTH, etc. Using the above state example, the children of the previous state using the L, LD, D operators in respect:
 
 ![East](https://github.com/itamarcasspi/PathfindingSearch/assets/74679553/2c759372-0627-4dc3-8f96-1cd6088574d5)  , 
 ![southeast](https://github.com/itamarcasspi/PathfindingSearch/assets/74679553/95b4d9db-ec8e-47f0-a164-7f23be269b3f)  , 
