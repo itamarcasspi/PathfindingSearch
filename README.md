@@ -76,6 +76,24 @@ The idea of that is to try and reduce the space complexity (memory used) of the 
 
 ## Implementation
 
+### Program files
+
+>Ex1.java
+
+The main function, includes parsing of the input file and creation of the output file.
+
+>Node.java
+
+Modeling of the problem into state nodes, and implementing the game operations.
+
+>Algorithm.java
+
+Includes several algorithm neutral functions such as the heuristic function and current path recursion.
+
+>BFS.java, DFBnB.java, IDASTAR.java, DFID.java, ASTAR.java
+
+Implementation of said algorithms.
+
 ### How to run
 
 Clone the repository and inside the directory of the program use the following command to compile:
@@ -94,8 +112,8 @@ The output of the program is an output.txt file discussed in the output headline
 
 The program reads a single Input.txt file using the following pattern:
 
-> DFBnB  
-> clockwise  
+>DFBnB  
+>clockwise  
 >with time  
 >no open  
 >10  
@@ -133,7 +151,19 @@ open / no open, should the program print the current size of the future state ca
 
 >10
 
-The size of the board will be 10x10.
+The size of the board will be 10x10.  
+
+>(2,6),(6,2)
+
+(X,Y) , (Z,W)
+
+ * All values count starts from 1 instead of 0.
+ * X is row value and Y is collumn
+ * (2,6) is the starting cell marked as S on the board.
+ * (6,2) is the goal cell marked as G on the board.
+
+
+
 
 >XXXXXXXXXX  
 >XDRRRSXXXX  
